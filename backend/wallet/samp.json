@@ -1,0 +1,305 @@
+{
+    "games": {
+        "com.ncsoft.lineage2mtw": {
+            "game_name": "L2M TW",
+            "packages": [
+                {
+                    "text": "130KC - 3.74",
+                    "value": "com.ncsoft.lineage2mtw_g1"
+                },
+                {
+                    "text": "1240KC - 34.69",
+                    "value": "com.ncsoft.lineage2mtw_g3"
+                },
+                {
+                    "text": "440KC - 11.56",
+                    "value": "com.ncsoft.lineage2mtw_g2"
+                },
+                {
+                    "text": "2040KC - 57.81",
+                    "value": "com.ncsoft.lineage2mtw_g4"
+                },
+                {
+                    "text": "4000KC - 106.73",
+                    "value": "com.ncsoft.lineage2mtw_g5"
+                }
+            ]
+        },
+        "com.habby.archero": {
+            "game_name": "Archero",
+            "packages": [
+                {
+                    "text": "Pile of Gems (1st Purchase) (Archero) - $0.99",
+                    "value": "com.habby.archero_dd1"
+                }
+            ]
+        },
+        "com.sgiggle.production": {
+            "game_name": "Tango",
+            "packages": [
+                {
+                    "text": "2100 Coins (Tango-Live Stream & Video Chat) - HK$158.00",
+                    "value": "com.sgiggle.production.cashier2.2000.credits.20210128"
+                },
+                {
+                    "text": "100 Coins (Tango-Live Stream & Video Chat) - ¥110",
+                    "value": "com.sgiggle.production.cashier2.100.credits"
+                },
+                {
+                    "text": "500 Coins (Tango-Live Stream & Video Chat) - ¥550",
+                    "value": "com.sgiggle.production.cashier2.500.credits"
+                },
+                {
+                    "text": "5250 Coins (Tango-Live Stream & Video Chat) - ¥5,500",
+                    "value": "com.sgiggle.production.cashier2.5000.credits.20210128"
+                },
+                {
+                    "text": "10500 Coins (Tango-Live Stream & Video Chat) - HK$778.00",
+                    "value": "com.sgiggle.production.cashier2.10000.credits.20210128"
+                }
+            ]
+        },
+        "com.netmarble.survivalgb": {
+            "game_name": "A3: Still Alive",
+            "packages": [
+                {
+                    "text": "Diamond 190 (A3: Still Alive) - ¥610",
+                    "value": "survivalgb_dia_190"
+                },
+                {
+                    "text": "Diamond 2200 (A3: Still Alive) - ¥6,100",
+                    "value": "survivalgb_dia_2200"
+                },
+                {
+                    "text": "Diamond 4400 (A3: Still Alive) - ¥12,000",
+                    "value": "survivalgb_dia_4400"
+                },
+                {
+                    "text": "Diamond 360 (A3: Still Alive) - ¥1,100",
+                    "value": "survivalgb_dia_360"
+                }
+            ]
+        },
+        "com.hutchgames.rebelracing": {
+            "game_name": "Rebel Racing",
+            "packages": [
+                {
+                    "text": "Gold Pack 3 (Rebel Racing) - ¥1,220",
+                    "value": "rebel_racing_gold_v2_3"
+                },
+                {
+                    "text": "Cash Pack 4 (Rebel Racing) - ¥2,440",
+                    "value": "rebel_racing_cash_v2_4"
+                },
+                {
+                    "text": "Gold Pack 5 (Rebel Racing) - ¥6,100",
+                    "value": "rebel_racing_gold_v2_5"
+                },
+                {
+                    "text": "Gold Pack 2 (Rebel Racing) - ¥610",
+                    "value": "rebel_racing_gold_v2_2"
+                }
+            ]
+        },
+        "com.proximabeta.fancyworld": {
+            "game_name": "Chimeraland",
+            "packages": [
+                {
+                    "text": "60Amber (Chimeraland) - RM 3.90",
+                    "value": "com.proximabeta.fancyworld.amber1"
+                },
+                {
+                    "text": "300Amber (Chimeraland) - RM 19.90",
+                    "value": "com.proximabeta.fancyworld.amber2"
+                },
+                {
+                    "text": "680Amber (Chimeraland) - RM 39.90",
+                    "value": "com.proximabeta.fancyworld.amber3"
+                },
+                {
+                    "text": "980Amber (Chimeraland) - RM 59.90",
+                    "value": "com.proximabeta.fancyworld.amber4"
+                },
+                {
+                    "text": "1980Amber (Chimeraland) - RM 129.90",
+                    "value": "com.proximabeta.fancyworld.amber5"
+                },
+                {
+                    "text": "3280Amber (Chimeraland) - RM 199.90",
+                    "value": "com.proximabeta.fancyworld.amber6"
+                }
+            ]
+        },
+        "com.shangdao.yn": {
+            "game_name": "Thiên Tài Kinh Doanh",
+            "packages": [
+                {
+                    "text": "60 KC (Thiên Tài Kinh Doanh) - RM 4.47",
+                    "value": "com.shangdao.yngem60"
+                },
+                {
+                    "text": "330KC (Thiên Tài Kinh Doanh) - RM 21.25",
+                    "value": "com.shangdao.yngem300"
+                },
+                {
+                    "text": "670KC (Thiên Tài Kinh Doanh) - RM 43.61",
+                    "value": "com.shangdao.yngem680"
+                },
+                {
+                    "text": "1380KC (Thiên Tài Kinh Doanh) - RM 88.35",
+                    "value": "com.shangdao.yngem1280"
+                },
+                {
+                    "text": "3380KC (Thiên Tài Kinh Doanh) - RM 222.55",
+                    "value": "com.shangdao.yngem3280"
+                }
+            ]
+        },
+        "com.upland.app": {
+            "game_name": "Upland",
+            "packages": [
+                {
+                    "text": "5000 UPX (Upland - Property Trading Game) - ¥550",
+                    "value": "com.uplandme.app.5000upx"
+                },
+                {
+                    "text": "10000 UPX (Upland - Property Trading Game) - ¥1,090",
+                    "value": "com.uplandme.app.10000upx"
+                },
+                {
+                    "text": "20000 UPX (Upland - Property Trading Game) - ¥2,190",
+                    "value": "com.uplandme.app.20000upx"
+                },
+                {
+                    "text": "50000 UPX (Upland - Property Trading Game) - ¥5,500",
+                    "value": "com.uplandme.app.50000upx"
+                },
+                {
+                    "text": "100000 UPX (Upland - Property Trading Game) - ¥10,900",
+                    "value": "com.uplandme.app.100000upx"
+                }
+            ]
+        },
+        "com.tencent.wesing": {
+            "game_name": "WeSing",
+            "packages": [
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫20,000",
+                    "value": "wesing.coin.1"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫40,000",
+                    "value": "wesing.coin.2"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫60,000",
+                    "value": "wesing.coin.3"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫230,000",
+                    "value": "wesing.coin.4"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫432,000",
+                    "value": "wesing.coin.5"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫1,000,000",
+                    "value": "wesing.coin.6"
+                },
+                {
+                    "text": "Kcoin (WeSing - Karaoke, Party & Live) - ₫1,650,000",
+                    "value": "wesing.coin.7"
+                }
+            ]
+        },
+        "com.droidhang.ad": {
+            "game_name": "Idle Heroes",
+            "packages": [
+                {
+                    "text": "Event Package 10 (Idle Heroes) - HK$39.90",
+                    "value": "com.droidhang.ad.diamond49"
+                },
+                {
+                    "text": "Event Package 63 (Idle Heroes) - HK$78.00",
+                    "value": "com.droidhang.ad.diamond103"
+                },
+                {
+                    "text": "Event Package 12 (Idle Heroes) - HK$158.00",
+                    "value": "com.droidhang.ad.diamond51"
+                },
+                {
+                    "text": "Event Package 14 (Idle Heroes) - HK$389.00",
+                    "value": "com.droidhang.ad.diamond53"
+                },
+                {
+                    "text": "Event Package 92 (Idle Heroes) - ₫2,350,000",
+                    "value": "com.droidhang.ad.diamond132"
+                }
+            ]
+        },
+        "com.ncsoft.lineagew": {
+            "game_name": "Lineage W",
+            "packages": [
+                {
+                    "text": "Diamond x400 (Lineage W) - ¥1,060",
+                    "value": "com.ncsoft.lineagew_g14"
+                },
+                {
+                    "text": "Diamond x1,200 (Lineage W) - ¥3,190",
+                    "value": "com.ncsoft.lineagew_g15"
+                },
+                {
+                    "text": "Diamond x2,000 (Lineage W) - ¥5,300",
+                    "value": "com.ncsoft.lineagew_g16"
+                },
+                {
+                    "text": "Diamond x4,000 (Lineage W) - ¥10,600",
+                    "value": "com.ncsoft.lineagew_g17"
+                }
+            ]
+        },
+        "sg.bigo.live": {
+            "game_name": "BIGO LIVE",
+            "packages": [
+                {
+                    "text": "42 Diamonds (Bigo Live–Live Stream, Go Live) - THB 42.49",
+                    "value": "70004"
+                },
+                {
+                    "text": "297 Diamonds (Bigo Live–Live Stream, Go Live) - THB 299.67",
+                    "value": "70005"
+                },
+                {
+                    "text": "848 Diamonds (Bigo Live–Live Stream, Go Live) - THB 848.77",
+                    "value": "70006"
+                },
+                {
+                    "text": "3818 Diamonds (Bigo Live–Live Stream, Go Live) - THB 3,771.15",
+                    "value": "70007"
+                }
+            ]
+        },
+        "com.voicechat.live.group": {
+            "game_name": "YoHo",
+            "packages": [
+                {
+                    "text": "700 coins (YoHo: Group Voice Chat Room) - THB 39.00",
+                    "value": "600001"
+                },
+                {
+                    "text": "3500 coins (YoHo: Group Voice Chat Room) - THB 200.00",
+                    "value": "600003"
+                },
+                {
+                    "text": "7050 coins (YoHo: Group Voice Chat Room) - THB 400.00",
+                    "value": "600004"
+                },
+                {
+                    "text": "35300 coins (YoHo: Group Voice Chat Room) - THB 1,950.00",
+                    "value": "600005"
+                }
+            ]
+        }
+    }
+}

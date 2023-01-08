@@ -1,0 +1,48 @@
+version: '3.6'
+
+services:
+  backend:
+    restart: always
+    build:
+      context: ./backend
+      dockerfile: Dockerfile      
+    command: bash -c "python manage.py runserver 0.0.0.0:8000"
+    container_name: backend
+    image: backend_image
+    environment:
+      DB_NAME : wallet
+      DB_USER : postgres
+      DB_PASS : admin
+      DB_HOST : databse
+      DB_PORT : 5432
+    # volumes:
+    #   - type: bind
+    #     source: ./backend
+    #     target: /backend
+    ports:
+      - 8000:8000
+
+  frontend:
+    restart: always
+    build:  
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend
+    image: frontend_image
+    volumes:
+      - type: bind
+        source: ./frontend
+        target: /scr
+    ports:
+      - 80:3000
+
+  databse:
+    image: postgres:15
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    ports:
+      - '5432:5432'
+    volumes: 
+      - ./db:/var/lib/postgresql/data
