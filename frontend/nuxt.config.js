@@ -21,7 +21,7 @@ export default {
   },
   proxy: {
     '/api': {
-      target: 'http://127.0.0.1:8000',
+      target: process.env.BROWSER_BASE_URL,
       changeOrigin: true
     }
   },
@@ -49,7 +49,7 @@ export default {
   ],
 
   axios: {
-    baseURL: 'http://localhost:8000'
+    baseURL: process.env.BROWSER_BASE_URL
   }, publicRuntimeConfig: {
     axios: {
       browserBaseURL: process.env.BROWSER_BASE_URL
