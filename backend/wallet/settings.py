@@ -124,7 +124,8 @@ STATIC_URL = '/static/'
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     "http://localhost",
-    'http://127.0.0.1'
+    'http://127.0.0.1',
+    'http://66.42.55.52'
 ]
 
 CORS_ORIGIN_WHITELIST = [
@@ -132,6 +133,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://localhost",
     'http://127.0.0.1'
     'http://127.0.0.1:3000',
+    'http://66.42.55.52'
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = [
