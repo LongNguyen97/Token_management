@@ -10,7 +10,7 @@ services:
     container_name: backend
     image: backend_image
     environment:
-      DB_NAME : wallet
+      DB_NAME : postgres
       DB_USER : postgres
       DB_PASS : admin
       DB_HOST : databse
@@ -30,7 +30,7 @@ services:
     container_name: frontend
     image: frontend_image
     environment:
-      - BROWSER_BASE_URL=backend:8000
+      - BROWSER_BASE_URL=http://66.42.55.52:8000
     volumes:
       - type: bind
         source: ./frontend
