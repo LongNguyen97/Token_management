@@ -1,19 +1,11 @@
 <template>
-  <v-main>
-    <v-alert
-      dense
-      elevation="10"
-      prominent
-      type="success"
-    >saDs</v-alert>
-  </v-main>
+<div>
+  hello
+</div>
 </template>
 
 <script>
-import Login from "~/pages/login";
-
 export default {
-  name: 'IndexPage',
-  components: {Login}
+  name: 'IndexPage'
 }
 </script>
