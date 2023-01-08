@@ -31,7 +31,6 @@ services:
     image: frontend_image
     environment:
       - BROWSER_BASE_URL=backend:8000
-      - BROWSER_BASE_URL=backend:8000
     volumes:
       - type: bind
         source: ./frontend
