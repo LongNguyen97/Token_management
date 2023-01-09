@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18 as builder
 # install vue-cli vue-cli-service
 # RUN npm install -g @vue/cli
 # RUN npm install -g @vue/cli-service-global
@@ -10,6 +10,7 @@ COPY . /src
 
 RUN yarn install
 RUN export NODE_OPTIONS=--openssl-legacy-provider && yarn run build
+RUN export NODE_OPTIONS=--openssl-legacy-provider && yarn run generate
 
 # ENV HOST 0.0.0.0
 # EXPOSE 3000
@@ -26,7 +27,9 @@ COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copy from the stahg 1
-COPY --from=builder /src /usr/share/nginx/html
+COPY --from=builder /src/dist /usr/share/nginx/html
+
+RUN chmod -R 755 usr/share/nginx/html
 
 EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
