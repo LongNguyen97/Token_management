@@ -19,12 +19,12 @@ export default {
     }, {name: 'format-detection', content: 'telephone=no'}],
     link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}]
   },
-  proxy: {
-    '/api': {
-      target: process.env.BROWSER_BASE_URL,
-      changeOrigin: true
-    }
-  },
+  // proxy: {
+  //   '/api': {
+  //     target: process.env.BROWSER_BASE_URL,
+  //     changeOrigin: true
+  //   }
+  // },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: ['assets/css/stylesheet.css'],
@@ -45,7 +45,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios',
     '@nuxtjs/auth-next',
-    '@nuxtjs/proxy'
+    // '@nuxtjs/proxy'
   ],
 
   axios: {
